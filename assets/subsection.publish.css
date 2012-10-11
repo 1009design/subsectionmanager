@@ -4,7 +4,7 @@
  * @author: Nils Hörrmann, http://nilshoerrmann.de
  * @source: http://github.com/nilshoerrmann/subsectionmanager
  */
- 
+
 /* Inline subsection */
 
 body.inline.subsection {
@@ -29,12 +29,17 @@ body.inline.subsection .primary {
 
 body.inline.subsection .secondary {
 	padding: 16px 0 0;
-	border-top: 1px solid rgba(255, 255, 255, 0.15);	
+	border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 body.inline.subsection label {
 	color: rgba(255, 255, 255, 0.9);
 	-webkit-font-smoothing: antialiased;
+}
+
+/** by willy **/
+body.inline.subsection label input {
+    color: black;
 }
 
 body.inline.subsection i,
